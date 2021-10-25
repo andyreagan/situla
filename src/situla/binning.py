@@ -1,11 +1,12 @@
+import json
+import math
 import os
 import sys
-import json
-import pandas as pd
+
 import numpy as np
-import math
-from scipy.stats import chi2 as chisq
+import pandas as pd
 from scipy.sparse.csgraph import connected_components
+from scipy.stats import chi2 as chisq
 
 
 def bucket_column(df: pd.DataFrame,
