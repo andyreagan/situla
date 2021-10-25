@@ -10,6 +10,3 @@ Installation
 ```sh
 pip install situla
 ```
-
-Usage
------
